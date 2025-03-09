@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 992px){
+  
+  form{
+    
+    width: 600px;
+  }
+  
+  #button-seguir{
+    width: 66%;
+  }
+  
+}
