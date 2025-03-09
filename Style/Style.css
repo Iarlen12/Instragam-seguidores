@@ -58,6 +58,9 @@
       box-shadow: 2px 2px 3px #2e5c1c76;
       color: white;
       font-weight:800;
-      
-      
+      cursor: pointer;
+      transition: 0.4s;
+    }
+    #button-seguir:hover{
+      background-color: #115a09;
     }
