@@ -21,8 +21,12 @@
       
       font-weight: 700;
       font-size: 34px;
-      color: #8B7D70;
+      color: #b02727;
       margin: 10px;
+      text-shadow: 2px 2px 2px #000000cd;
+    }
+    strong{
+      color:#e4910d;
     }
     form{
       position: relative;
@@ -35,7 +39,7 @@
       width: 500px;
       height: 350px;
     }
-    input[type="text"], input[type="number"]{
+    input[type="text"], input[type="number"],input[type="password"]{
       width: 80%;
       max-width: 400px;
       height: 37px;
@@ -60,9 +64,9 @@
       height: 47px;
       padding: 13px;
       margin: 15px;
-      border:3px solid;
-      border-bottom-style: 3px black;
+      border:2px solid #00000035;
       border-radius: 4px;
+      box-shadow: 2px 2px 3px #2e5c1c76;
       color: white;
       font-weight:800;
       
@@ -75,12 +79,13 @@
              <form method="post" autocomplete="on">
                
                <div>
-                 <h1>Contas Instagram!</h1>
+                 <h1>Contas <strong>Instagram!</strong></h1>
                  <input type="text" name="Email" id="Email" autocomplete="email" placeholder="Enter your email..." required/>
                    
                
                
-                  <input type="text" id="senha" placeholder="Enter your Password" autocomplete="Password" required>
+                  <input type="password" id="senha" placeholder="Enter your Password" minlength="8"
+                    maxlength="20" autocomplete="Password" required>
                
                
                  <input type="number" placeholder="quantity..." maxlength="10" min="1" required="">
